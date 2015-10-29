@@ -60,7 +60,7 @@ server:
 	# port to answer queries from
 	# port: 53
 {
- $port = $unbound{TCPPort} || 10053;
+ $port = $unbound{UDPPort} || 10053;
  return "	port: $port";
 }
 

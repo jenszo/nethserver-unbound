@@ -24,7 +24,7 @@ use strict;
 use esmith::Build::CreateLinks  qw(:all);
 
 #--------------------------------------------------
-# actions for nethserver-postgresql-update event
+# actions for nethserver-unbound-update event
 #--------------------------------------------------
 
 my $event = "nethserver-unbound-update";

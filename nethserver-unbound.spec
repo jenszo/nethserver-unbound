@@ -1,6 +1,6 @@
 Summary: NethServer unbound configuration
 Name: nethserver-unbound
-Version: 0.1.0
+Version: 1.0.0
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name} 
@@ -36,3 +36,6 @@ echo "%doc COPYING" >> %{name}-%{version}-filelist
 %defattr(-,root,root)
 
 %changelog
+* Tue Nov 10 2015 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.0-1
+- Add unbound as DNS resolver for DNSBLs - Feature #3294 [NethServer]
+

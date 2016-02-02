@@ -74,6 +74,7 @@ server:
 	# number of ports to allocate per thread, determines the size of the
 	# port range that can be open simultaneously.
 	# outgoing-range: 4096
+	outgoing-range: 384
 
 	# permit unbound to use this port number or port range for
 	# making outgoing queries, using an outgoing interface.

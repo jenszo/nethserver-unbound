@@ -156,10 +156,10 @@ server:
 	# infra-cache-numhosts: 10000
 
 	# Enable IPv4, "yes" or "no".
-	# do-ip4: yes
+	do-ip4: yes
 
 	# Enable IPv6, "yes" or "no".
-	# do-ip6: yes
+	do-ip6: no
 
 	# Enable UDP, "yes" or "no".
 	# NOTE: if setting up an unbound on tls443 for public use, you might want to
